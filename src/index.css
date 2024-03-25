@@ -30,6 +30,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Scrolling bar on right hand side */
 ::-webkit-scrollbar {
     display: none;
 }
@@ -64,14 +65,14 @@ section {
     margin-top: 8rem;
 }
 
-section>h2,
-section>h5 {
+section > h2,
+section > h5 {
     text-align: center;
     color: var(--color-light);
 }
 
 section > h2 {
-    color: var(--color-light);
+    color: var(--color-primary);
     margin-bottom: 3rem;
 }
 
@@ -136,9 +137,8 @@ img {
         width: var(--container-width-sm);
     }
     
-    section > h2{
+    section > h2 {
         margin-bottom: 2rem;
     }
 }
-
 

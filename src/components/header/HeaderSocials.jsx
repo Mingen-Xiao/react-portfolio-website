@@ -4,7 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 const HeaderSocials = () => {
   return (
-    <div className="header_socials">
+    <div className="header__socials">
         <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin/></a>
         <a href="https://github.com" target="_blank" rel="noreferrer"><AiFillGithub/></a>
     </div>      
