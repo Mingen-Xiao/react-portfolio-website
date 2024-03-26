@@ -118,7 +118,7 @@ img {
     object-fit: cover;
 }
 
-/* For Tablets Size */
+/* For Tablets(i.e. Ipad) Size */
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .container {
