@@ -39,13 +39,25 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-            architecto, voluptate magni ad ipsa accusantium dolorum impedit
-            doloribus! Ipsa cumque accusamus a, dicta nam amet architecto ut
-            omnis suscipit quos?
+            - Boasting 3 years of dedicated full-stack development experience, I
+            specialize in architecting and implementing sophisticated software
+            solutions. My expertise encompasses a detailed grasp of web
+            solutions architecture and cutting-edge development technologies,
+            driving successful project development with a confident commitment
+            to innovation.
+          </p>
+          <p>
+            - In addition to my technical skills, I am a
+            results-oriented team member known for an agile and adaptable
+            approach that efficiently integrates with diverse project management
+            styles. My leadership extends to roles as a company director and
+            store manager, showcasing a proven track record of effective
+            management and leadership capabilities.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

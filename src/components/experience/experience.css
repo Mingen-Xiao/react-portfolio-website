@@ -1,6 +1,6 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 分column */
+    grid-template-columns: repeat(3, 1fr); /* 分column */
     gap: 2rem;
 }
 

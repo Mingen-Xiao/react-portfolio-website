@@ -47,6 +47,20 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>SASS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -59,6 +73,13 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details' />
               <div>
                 <h4>Node JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>Java</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -94,6 +115,64 @@ const Experience = () => {
         </div>
       
         {/* END OF BACKEND */}
+
+
+        <div className="experience__backend">
+          <h3>Architectures & Platforms</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>RESTful APIs</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>Jira</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>GitHub</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>Postman</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>VirtualBox</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>Agile</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details' />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      
+        {/* END OF ARCHITECTURES & PLATFORMS */}
 
       </div>
     </section>

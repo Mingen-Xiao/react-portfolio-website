@@ -1,6 +1,6 @@
 .services__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 分column */
+    grid-template-columns: 1fr 1fr; /* 分column */
     gap: 3rem;
 }
 
