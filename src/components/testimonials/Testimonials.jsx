@@ -18,27 +18,27 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "AAA",
+    name: "Lucas Alan",
     review:
-      "Narendra Damodardas Modi is an Indian politician who has served as the 14th prime minister of India since May 2014. Modi was the chief minister of Gujarat",
+      "All the training you have done with Rico has been very helpful. You're giving him a great start to his internship. I have taken notice of your leadership skills and will keep this in mind for future projects",
   },
   {
     avatar: AVTR2,
-    name: "BBB",
+    name: "William",
     review:
-      "Narendra Damodardas Modi is an Indian politician who has served as the 14th prime minister of India since May 2014. Modi was the chief minister of Gujarat",
+      "Hey Mingen, I noticed you've taken it upon yourself to organize team-building activities. You do a great job at this, and everyone has so much fun at your events. Please let me know if you need any help with any future events.",
   },
   {
     avatar: AVTR3,
-    name: "CCC",
+    name: "MO",
     review:
-      "Narendra Damodardas Modi is an Indian politician who has served as the 14th prime minister of India since May 2014. Modi was the chief minister of Gujarat",
+      "Mingen, you did a fantastic job managing the conflict that came up during this morning’s meeting. Conflict is inevitable, especially when we’re on deadline and people are stressed, but you knew how to make both sides feel heard. If it wasn’t for your kind and quick response, I think we’d still be dealing with it.",
   },
   {
     avatar: AVTR4,
-    name: "DDD",
+    name: "Cruz",
     review:
-      "Narendra Damodardas Modi is an Indian politician who has served as the 14th prime minister of India since May 2014. Modi was the chief minister of Gujarat",
+      "Mingen's work looks great! It's clear that you care about your work and take the time to do it correctly. I especially liked that you asked the client about their design preferences before creating their website, and I'm excited to see what you do next.",
   },
 ];
 

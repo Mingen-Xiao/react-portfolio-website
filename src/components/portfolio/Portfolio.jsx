@@ -1,56 +1,39 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/my-portfolio-1.jpg";
+import IMG2 from "../../assets/my-portfolio-2.jpg";
+import IMG3 from "../../assets/my-portfolio-3.jpg";
+import IMG4 from "../../assets/my-portfolio-4.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Figma dashboard UI kit for data design web apps',
+    title: 'Personal Portfolio Website',
     github: 'https://github.com/Mingen-Xiao/react-portfolio-website',
-    demo: 'https://dribbble.com/shots/23888631-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    demo: 'https://mingen-xiao.github.io/react-portfolio-website/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Aurora Bundle',
-    github: 'https://dribbble.com/shots/23802853-Aurora-Bundle',
-    demo: 'https://dribbble.com/shots/23888631-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'SortLog Online Inventory Management Software',
+    github: 'https://github.com/SortLog',
+    demo: 'https://sortlog.github.io/SortLog-FrontEnd/dashboard'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Data visualization and charts templates for Figma',
-    github: 'https://dribbble.com/shots/23802828-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma',
-    demo: 'https://dribbble.com/shots/23888631-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Data Lineage System',
+    github: 'https://github.com/Mingen-Xiao/Data-Lineage',
+    demo: ' https://mingen-xiao.github.io/Data-Lineage/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Professional-looking visualizations for any project',
-    github: 'https://dribbble.com/shots/23802795-Professional-looking-visualizations-for-any-project',
-    demo: 'https://dribbble.com/shots/23888631-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Aurora Bundle set (ORION + ECLIPSE + HYPER)',
-    github: 'https://dribbble.com/shots/23802781-Aurora-Bundle-set-ORION-ECLIPSE-HYPER',
-    demo: 'https://dribbble.com/shots/23888631-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Make Impactful Data Visualizations in Figma with Hyper Charts UI',
-    github: 'https://dribbble.com/shots/23667852-Make-Impactful-Data-Visualizations-in-Figma-with-Hyper-Charts-UI',
-    demo: 'https://dribbble.com/shots/23888631-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-
+    title: 'CI/CD Pipelines System',
+    github: 'https://github.cs.adelaide.edu.au/a1788871/CONT9',
+    demo: 'https://github.cs.adelaide.edu.au/a1788871/CONT9'
+  }
 ];
 
 const Portfolio = () => {

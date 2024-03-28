@@ -38,16 +38,16 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            - Boasting 3 years of dedicated full-stack development experience, I
+          <p className="summary">
+            • Boasting 3 years of dedicated full-stack development experience, I
             specialize in architecting and implementing sophisticated software
             solutions. My expertise encompasses a detailed grasp of web
             solutions architecture and cutting-edge development technologies,
             driving successful project development with a confident commitment
             to innovation.
           </p>
-          <p>
-            - In addition to my technical skills, I am a
+          <p className="summary">
+            • In addition to my technical skills, I am a
             results-oriented team member known for an agile and adaptable
             approach that efficiently integrates with diverse project management
             styles. My leadership extends to roles as a company director and
@@ -55,7 +55,7 @@ const About = () => {
             management and leadership capabilities.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary lets-talk">
             Let's Talk
           </a>
         </div>

@@ -1,19 +1,22 @@
+section {
+    padding-top: 6rem;
+}
+
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%; /* 分column */
-    gap: 15%;    
+    grid-template-columns: 35% 50%;
+    /* 分column */
+    gap: 15%;
 }
 
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
     display: grid;
     place-items: center;
 }
@@ -21,7 +24,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);   
+    transform: rotate(10deg);
     transition: var(--transition);
 }
 
@@ -37,8 +40,8 @@
 
 .about__card {
     background: var(--color-bg-variant);
-    border: 1px solid transparent;   
-    border-radius: 1rem;   
+    border: 1px solid transparent;
+    border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
@@ -46,7 +49,8 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-bg-variant);
+    background-color: var(--color-light);
     cursor: default;    /* 默認光標 when hover */
 }
 
@@ -60,14 +64,33 @@
     font-size: 0.95rem;
 }
 
+.about__card:hover h5 {
+    font-size: 0.95rem;
+    color: var(--color-bg-variant);
+}
+
 .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
 }
 
+.about__card:hover small {
+    font-size: 0.7rem;
+    color: var(--color-bg-variant);
+}
+
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.summary {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.lets-talk {
+    margin-top: 3rem;
 }
 
 /* For Tablets Size */
@@ -95,12 +118,12 @@
         width: 65%;
         margin: 0 auto 3rem;
     }
-    
+
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-    
+
     .about__content {
         text-align: center;
     }

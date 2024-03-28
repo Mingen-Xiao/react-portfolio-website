@@ -49,6 +49,14 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.photo {
+    position: relative;
+    width: 666px;
+    height: 450px;
+    left: -12rem;
+    text-align: center;
+}
+
 /* ============================ SCROLL DOWN ============================= */
 .scroll__down {
     position: absolute;
