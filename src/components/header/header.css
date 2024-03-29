@@ -29,11 +29,8 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+.header_col {
+    color: var(--color-light);
 }
 
 /* ============================ ME ============================= */
@@ -43,8 +40,8 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    margin-top: 6rem;
+    border-radius: 3rem 3rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -65,6 +62,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    color: var(--color-light);
 }
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================ */

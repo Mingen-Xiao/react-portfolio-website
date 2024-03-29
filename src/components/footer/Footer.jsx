@@ -3,7 +3,7 @@
 import React from "react";
 import "./footer.css";
 import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
 
 const Footer = () => {
@@ -22,9 +22,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><BsFacebook/></a>
-        <a href="https://instagram.com"><BsInstagram/></a>
-        <a href="https://twitter.com"><AiOutlineTwitter/></a>
+        <a href="https://www.linkedin.com/in/mingen-xiao/" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer"><BsFacebook/></a>
+        <a href="https://twitter.com/LucasSMYXME" target="_blank" rel="noreferrer"><AiOutlineTwitter/></a>
       </div>
     
       <div className="footer__copyright">

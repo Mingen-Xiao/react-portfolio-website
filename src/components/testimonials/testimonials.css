@@ -1,6 +1,6 @@
 .container.testimonials__container {
-    width: 40%;
-    padding-bottom: 4rem;
+    width: 39%;
+    height: 18rem;
 }
 
 .client__avatar {
@@ -28,8 +28,10 @@
     margin: 0.8rem auto 0;
 }
 
+/* These class names are found from the code inspection page */
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-primary);
+    
 }
 
 /* For Tablets(i.e. Ipad) Size */
@@ -37,6 +39,7 @@
 @media screen and (max-width: 1024px) {
     .container.testimonials__container {
         width: 60%;
+        height: 26rem;
     }
 }
 
@@ -45,10 +48,10 @@
 @media screen and (max-width: 600px) {
     .container.testimonials__container {
         width: var(--container-width-sm);
+        height: 26rem;
     }
     
     .client__review {
         width: var(--container-width-sm);
     }
 }
-

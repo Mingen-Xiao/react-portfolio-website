@@ -14,15 +14,18 @@
 .contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
-    border-radius: 1.2rem;
+    border-radius: 3rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    color: var(--color-white);
 }
 
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    background-color: var(--color-bg);
+    color: var(--color-light);
 }
 
 .contact__option-icon {
@@ -49,6 +52,7 @@ input, textarea {
     border-radius: 0.5rem;
     background: transparent;
     border: 2px solid var(--color-primary-variant);
+    background-color: var(--color-bg);
     resize: none;
     color: var(--color-white);  /* text color */
 }
