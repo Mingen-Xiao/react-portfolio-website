@@ -35,13 +35,13 @@ html {
     display: none;
 }
 
-body {
+/* body {
     font-family: "Poppins", sans-serif;
     background: rgb(93, 93, 168);
     color: var(--color-white);
     line-height: 1.8;
     background-image: url(../src/assets/bg-texture.png);
-}
+} */
 
 /* ===================== GENERAL STYLES =================== */
 .container {
